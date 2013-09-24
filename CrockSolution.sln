@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Crock", "Crock\Crock.fsproj", "{B53DB5BC-A408-4197-B31B-5A14103F5A30}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CrockTest", "CrockTest\CrockTest.fsproj", "{81963F47-FF13-4BBC-8FE1-DA527B0BFD52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D2A16E31-F71B-4C6F-9CCD-3F6091134193}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B53DB5BC-A408-4197-B31B-5A14103F5A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53DB5BC-A408-4197-B31B-5A14103F5A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53DB5BC-A408-4197-B31B-5A14103F5A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53DB5BC-A408-4197-B31B-5A14103F5A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81963F47-FF13-4BBC-8FE1-DA527B0BFD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81963F47-FF13-4BBC-8FE1-DA527B0BFD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81963F47-FF13-4BBC-8FE1-DA527B0BFD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81963F47-FF13-4BBC-8FE1-DA527B0BFD52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
